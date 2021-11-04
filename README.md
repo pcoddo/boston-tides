@@ -28,7 +28,7 @@ git clone https://github.com/pcoddo/boston-tides.git
 ```
 Create Anaconda environment using `environment.yml` file:
 ```shell
-conda env create -f environment.yml
+conda env create -f environment.yaml
 conda activate tides
 ```
 
