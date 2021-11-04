@@ -26,7 +26,7 @@ Clone repository to your device:
 git init
 git clone https://github.com/pcoddo/boston-tides.git
 ```
-Create Anaconda environment using `environment.yml` file:
+Create Anaconda environment using `environment.yaml` file:
 ```shell
 conda env create -f environment.yaml
 conda activate tides
