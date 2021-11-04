@@ -32,7 +32,7 @@ conda env create -f environment.yml
 conda activate tides
 ```
 
-Launch Jupyter Notbook
+Launch Jupyter Notbook:
 ```shell
 jupyter notebook
 ```
