@@ -1,0 +1,20 @@
+name: gev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - ipython
+  - matplotlib
+  - scipy
+  - ipykernel
+  - scikit-learn
+  - statsmodels
+  - ipywidgets
+  - openpyxl
+  - netcdf4
+  - seaborn
+  - fitter
+  - easydev
+  - pyextremes
+prefix: /home/poddo/.conda/envs/gev
