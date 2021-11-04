@@ -1,10 +1,12 @@
 <!-- Add banner here -->
-![Banner](https://github.com/pcoddo/boston-tides/blob/main/img/header.png)
+![Banner](https://raw.githubusercontent.com/pcoddo/boston-tides/main/img/header.png)
 
-# Project Title
+# Boston Tides
 
 <!-- Add buttons here -->
-
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pcoddo/boston-tides?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/pcoddo/boston-tides)
+![GitHub](https://img.shields.io/github/license/pcoddo/boston-tides)
 <!-- Describe your project in brief -->
 
 <!-- The project title should be self explanotory and try not to make it a mouthful. (Although exceptions exist- **awesome-readme-writing-guide-for-open-source-projects** - would have been a cool name)
