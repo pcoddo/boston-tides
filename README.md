@@ -1,5 +1,5 @@
 <!-- Add banner here -->
-![Banner](https://github.com/pcoddo/boston-tides/src/header.png)
+![Banner](https://github.com/pcoddo/boston-tides/img/header.png)
 
 # Project Title
 
