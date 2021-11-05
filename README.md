@@ -92,7 +92,7 @@ The following Jupyter Notebooks work through the three stages of the analysis:
 - Garner, G. G., T. Hermans, R. E. Kopp, A. B. A. Slangen, T. L. Edwards, A. Levermann, S. Nowikci, M. D. Palmer, C. Smith, B. Fox-Kemper, H. T. Hewitt, C. Xiao, G. Aðalgeirsdóttir, S. S. Drijfhout, T. L. Edwards, N. R. Golledge, M. Hemer, R. E. Kopp, G. Krinner, A. Mix, D. Notz, S. Nowicki, I. S. Nurhati, L. Ruiz, J-B. Sallée, Y. Yu, L. Hua, T. Palmer, B. Pearson, 2021. *IPCC AR6 Sea-Level Rise Projections*. Version 20210809. PO.DAAC, CA, USA. Dataset accessed [2021-10-26] at https://podaac.jpl.nasa.gov/announcements/2021-08-09-Sea-level-projections-from-the-IPCC-6th-Assessment-Report.
 
 ## Acknowledgements
-We thank the projection authors for developing and making the sea-level rise projections available, multiple funding agencies for supporting the development of the projections, and the NASA Sea-Level Change Team for developing and hosting the IPCC AR6 Sea-Level Projection Tool. Special thanks to [Gregory Garner](https://sites.google.com/site/gggarner121) for providing subset of full projections for the Boston Tide gauge.
+We thank the projection authors for developing and making the sea-level rise projections available, multiple funding agencies for supporting the development of the projections, and the NASA Sea-Level Change Team for developing and hosting the IPCC AR6 Sea-Level Projection Tool. Special thanks to [Gregory Garner](https://sites.google.com/site/gggarner121) for providing subset of full projections for the Boston tide gauge.
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
