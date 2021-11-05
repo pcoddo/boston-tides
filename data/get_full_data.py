@@ -12,7 +12,7 @@
 
 2) Concatenates recent data (2018/01/01 - 2021/09/30) from NOAA Tides and Currents
 """
-__version__ = "0.0.1"
+__version__ = "1.0"
 __author__ = "Perry Oddo <perry.oddo@nasa.gov>"
 
 

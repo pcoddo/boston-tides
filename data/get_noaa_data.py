@@ -7,7 +7,7 @@
 
 Downloads hourly data for Boston tide gauge from NOAA Tides and Currents
 """
-__version__ = "0.0.1"
+__version__ = "1.0"
 __author__ = "Perry Oddo <perry.oddo@nasa.gov>"
 
 import noaa_coops as nc
