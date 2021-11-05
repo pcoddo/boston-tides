@@ -13,7 +13,7 @@
 ![GitHub](https://img.shields.io/github/license/pcoddo/boston-tides)
 
 ## About
-Python implementation of the sea level and storm surge analysis in Lempert et al. (2012) and [Oddo et al. (2017)](https://onlinelibrary.wiley.com/doi/full/10.1111/risa.12888). Generates sea level rise scenarios consistent with projections from Chapter 9 of Working Group 1 contribution to the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report.
+Python implementation of the sea level and storm surge analysis found in Lempert et al. (2012) and [Oddo et al. (2017)](https://onlinelibrary.wiley.com/doi/full/10.1111/risa.12888). Generates sea level rise scenarios consistent with projections from Chapter 9 of Working Group 1 contribution to the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report.
 
 Authors of original R code:
 - [Klaus Keller ](https://personal.ems.psu.edu/~kzk10/)
