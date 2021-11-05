@@ -104,4 +104,7 @@ We thank the projection authors for developing and making the sea-level rise pro
 ## Questions?
 **Contact:** [Perry Oddo](https://perryoddo.com)
 
-[(Back to top)](#About)
+
+<p align="center">
+  <a href="#About">(Back to top)</a>
+</p>
