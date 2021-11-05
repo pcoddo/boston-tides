@@ -79,6 +79,7 @@ The following Jupyter Notebooks work through the three stages of the analysis:
   - fitter
   - easydev
   - pyextremes
+  - noaa-coops
   
 ## Referenced Works
 - Lempert, R., Sriver, R. L., & Keller, K. (2012). Characterizing Uncertain Sea Level Rise Projections to Support Investment Decisions (No. CEC-500-2012-056). *California Energy Commission Sacramento*, CA, USA. Retrieved from http://ced.berkeley.edu/faculty/ratt/readings/ALL_THE_CLIMATE_PAPERS_2012/PoLA_revision_feb_28_2012.pdf
