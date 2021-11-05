@@ -4,7 +4,7 @@
 # **Boston Tides**
 </p>
 <p align="left">
-    <em>Sea level rise and extreme value analysis for Boston using IPCC AR6 Projections</em>
+    <em>Sea level rise and extreme value analysis for Boston tide gauge using IPCC AR6 Projections</em>
 </p>
 
 <!-- Badges -->
