@@ -102,7 +102,7 @@ We thank the projection authors for developing and making the sea-level rise pro
 [MIT License](https://opensource.org/licenses/MIT)
 
 ## Questions?
-**Contact:** [Perry Oddo](https://perryoddo.com)
+**Contact:** [Perry Oddo](https://perryoddo.com/#contact)
 
 
 <p align="center">
