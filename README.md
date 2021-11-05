@@ -25,12 +25,12 @@ Clone repository to your device:
 ```shell
 git clone https://github.com/pcoddo/boston-tides.git
 ```
-Create Anaconda environment using `environment.yml` file:
+Create conda environment using provided `environment.yml` file:
 ```shell
 conda env create -f environment.yml
 conda activate tides
 ```
-Install `noaa-coops` package to access NOAA Tides and Currents API
+Install `noaa-coops` package to access NOAA Tides and Currents API:
 ```
 pip install noaa-coops
 ```
@@ -40,9 +40,9 @@ jupyter notebook
 ```
 
 ## Usage
-The following Jupyter Notebooks work through the three stages of the analysis:
+The following Jupyter Notebooks outline the three stages of the analysis:
 
-1. `ar6_fit_distribution.ipynb` Fits a lognormal distribution to the IPCC AR6 empirical sea level projections for Boston in the year 2100.
+1. `ar6_fit_distribution.ipynb` Fits a lognormal distribution to the IPCC AR6 empirical sea level projections for the year 2100.
 
 > **Output** | Parameters for fitted lognormal distribution to use as target for sea level rise scenarios:
 ![distribution](https://raw.githubusercontent.com/pcoddo/boston-tides/main/img/distribution.png)
@@ -56,9 +56,9 @@ The following Jupyter Notebooks work through the three stages of the analysis:
 
 <br />
 
-3. `boston_gev.ipynb` Performs a generalized extreme value (GEV) analysis for the Boston tide gauge using block maxima and Markov chain Monte Carlo. Based on [pyextremes](https://github.com/georgebv/pyextremes) package.
+3. `boston_gev.ipynb` Performs a generalized extreme value (GEV) analysis for the Boston tide gauge using block maxima and Markov Chain Monte Carlo (MCMC). Analysis based on [pyextremes](https://github.com/georgebv/pyextremes) package.
 
-> **Output** | Return levels based on annual block maxima at Boston Tide gauge. Also produces trace plots and distributions for GEV shape, location, and scale parameters:
+> **Output** | Return levels based on annual block maxima at Boston tide gauge. Also produces trace plots and distributions for GEV shape, location, and scale parameters:
 ![gev](https://raw.githubusercontent.com/pcoddo/boston-tides/main/img/gev.png)
 
 ## Dependencies
@@ -81,10 +81,9 @@ The following Jupyter Notebooks work through the three stages of the analysis:
   - noaa-coops
   
 ## Referenced Works
-- Lempert, R., Sriver, R. L., & Keller, K. (2012). Characterizing Uncertain Sea Level Rise Projections to Support Investment Decisions (No. CEC-500-2012-056). *California Energy Commission Sacramento*, CA, USA. Retrieved from http://ced.berkeley.edu/faculty/ratt/readings/ALL_THE_CLIMATE_PAPERS_2012/PoLA_revision_feb_28_2012.pdf
+- Lempert, R., Sriver, R. L., & Keller, K. (2012). Characterizing Uncertain Sea Level Rise Projections to Support Investment Decisions (No. CEC-500-2012-056). *California Energy Commission Sacramento*, CA, USA. Retrieved from https://www.rand.org/pubs/external_publications/EP51475.html
 
 - Oddo, P. C., Lee, B. S., Garner, G. G., Srikrishnan, V., Reed, P. M., Forest, C. E., & Keller, K. (2017). Deep Uncertainties in Sea-Level Rise and Storm Surge Projections: Implications for Coastal Flood Risk Management. *Risk Analysis*. https://doi.org/10.1111/risa.12888
-
 
 - Talke, S. A., Kemp, A. C., & Woodruff, J. (2018). Relative Sea Level, Tides, and Extreme Water Levels in Boston Harbor From 1825 to 2018. *Journal of Geophysical Research: Oceans*, 123(6), 3895–3914. https://doi.org/https://doi.org/10.1029/2017JC013645
 
