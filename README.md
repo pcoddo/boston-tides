@@ -59,7 +59,7 @@ The following Jupyter Notebooks work through the three stages of the analysis:
 
 3. `boston_gev.ipynb` Performs a generalized extreme value (GEV) analysis for the Boston tide gauge using block maxima and Markov chain Monte Carlo. Based on [pyextremes](https://github.com/georgebv/pyextremes) package.
 
-> **Output** | Return levels based on annual block maxima at Boston Tide gauge. Also produces trace plots for GEV shape, location, and scale parameters:
+> **Output** | Return levels based on annual block maxima at Boston Tide gauge. Also produces trace plots and distributions for GEV shape, location, and scale parameters:
 ![gev](https://raw.githubusercontent.com/pcoddo/boston-tides/main/img/gev.png)
 
 ## Dependencies
