@@ -31,7 +31,10 @@ Create Anaconda environment using `environment.yml` file:
 conda env create -f environment.yml
 conda activate tides
 ```
-
+Install `noaa-coops` package to access NOAA Tides and Currents API
+```
+pip install noaa-coops
+```
 Launch Jupyter Notbook:
 ```shell
 jupyter notebook
