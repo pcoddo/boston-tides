@@ -23,7 +23,6 @@ Original R code authors:
 
 Clone repository to your device:
 ```shell
-git init
 git clone https://github.com/pcoddo/boston-tides.git
 ```
 Create Anaconda environment using `environment.yml` file:
