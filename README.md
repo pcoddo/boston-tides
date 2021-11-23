@@ -34,7 +34,7 @@ Install `noaa-coops` package to access NOAA Tides and Currents API:
 ```
 pip install noaa-coops
 ```
-Launch Jupyter Notbook:
+Launch Jupyter Notebook:
 ```shell
 jupyter notebook
 ```
