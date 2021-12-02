@@ -12,7 +12,7 @@
 
 2) Concatenates recent data (2018/01/01 - 2021/09/30) from NOAA Tides and Currents
 """
-__version__ = "1.0"
+__version__ = "2.0"
 __author__ = "Perry Oddo <perry.oddo@nasa.gov>"
 
 
@@ -38,6 +38,8 @@ left_df = pd.read_csv(StringIO(data), comment="#", delim_whitespace=True, names=
 right_df = pd.read_csv(StringIO(data), comment="#", delim_whitespace=True, names=["datum_correction"], skiprows=lambda x: x%2 == 1)
 df_combined = pd.concat([left_df, right_df], axis=1)
 
+# Convert sea level to NAVD-88 
+df_combined["sea_level"] = df_combined["sea_level"] - 2.75
 
 ##############################################################
 ## Download data from 2018 onward from NOAA Tides and Currents
@@ -49,7 +51,7 @@ df_hourly = boston.get_data(
     begin_date="20180101",
     end_date="20210930",
     product="hourly_height",
-    datum="STND",
+    datum="NAVD",
     units="metric",
     time_zone="gmt")
 

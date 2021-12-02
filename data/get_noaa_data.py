@@ -21,7 +21,7 @@ gauge_raw = boston.get_data(
     begin_date="19210504",
     end_date="20210930",
     product="hourly_height",
-    datum="STND",
+    datum="NAVD",
     units="metric",
     time_zone="gmt")
 
