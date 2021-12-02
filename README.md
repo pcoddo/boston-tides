@@ -45,21 +45,21 @@ The following Jupyter Notebooks outline the three stages of the analysis:
 1. `ar6_fit_distribution.ipynb` Fits a lognormal distribution to the IPCC AR6 empirical sea level projections for the year 2100.
 
 > **Output** | Parameters for fitted lognormal distribution to use as target for sea level rise scenarios:
-![distribution](https://raw.githubusercontent.com/pcoddo/boston-tides/main/img/distribution.png)
+![distribution](https://raw.githubusercontent.com/pcoddo/boston-tides/main/plots/fit_dist/3_lognorm_fit.png)
 
 <br />
 
 2. `boston_slr.ipynb` Uses rejection sampling approach to generate uncertain sea level rise scenarios consistent with the IPCC expert assessment.
 
 > **Output** | Sea level rise scenarios from 2021 to 2100, corresponding to target distribution:
-![projection](https://raw.githubusercontent.com/pcoddo/boston-tides/main/img/projection.png)
+![projection](https://raw.githubusercontent.com/pcoddo/boston-tides/main/plots/slr/4_rs_projections.png)
 
 <br />
 
 3. `boston_gev.ipynb` Performs a generalized extreme value (GEV) analysis for the Boston tide gauge using block maxima and Markov Chain Monte Carlo (MCMC). Analysis based on [pyextremes](https://github.com/georgebv/pyextremes) package.
 
 > **Output** | Return levels based on annual block maxima at Boston tide gauge. Also produces trace plots and distributions for GEV shape, location, and scale parameters:
-![gev](https://raw.githubusercontent.com/pcoddo/boston-tides/main/img/gev.png)
+![gev](https://raw.githubusercontent.com/pcoddo/boston-tides/main/plots/gev/3_return_values.png)
 
 ## Dependencies
 **Python** version 3.7+
