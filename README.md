@@ -12,6 +12,7 @@
 </p>
 
 <!-- Badges -->
+[![DOI](https://zenodo.org/badge/424687869.svg)](https://zenodo.org/badge/latestdoi/424687869)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pcoddo/boston-tides?include_prereleases)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pcoddo/boston-tides)
 ![GitHub](https://img.shields.io/github/license/pcoddo/boston-tides)
